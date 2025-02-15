@@ -1,11 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Lexend:wght@100..900&family=Pacifico&display=swap');
 * {
     box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
-
-
 
 body {
   height: 100vh;
@@ -19,14 +16,15 @@ body {
 }
 
 .paper {
-  background-color: #eee;
+  background-color: #f0dcc2;
+  font-family: "Pacifico", serif;
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
   transform: rotateZ(-5deg);
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
   position: absolute;
-  max-width: 500px;
+  max-width: 700px;
 }
 
 .paper.heart {
@@ -74,7 +72,9 @@ img {
 }
 
 p {
-  font-family: 'Arial', cursive;
+    font-family: "Lexend", serif;
+ /*justify*/
+ text-align: justify;
   font-size: 15px;
   color: rgb(0,0,100);
   opacity: 0.75;
@@ -84,6 +84,9 @@ p {
   scale:0.75;
 }
 
+#kybut{
+    font-family: "Dancing Script", cursive;
+}
 
 #wrapper {
     width: 400px;
@@ -173,11 +176,20 @@ p {
     border-top-color: #eee;
 }
 
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; /* Ensure it takes up the full height */
+}
+
+
 .envelope .letter {
     position: absolute;
     width: 194px;
     height: 84px;
-    background: #eee;
+    background: #f0dcc2;
     top: 8px;
     left: 3px;
     border: 1px solid #ccc;

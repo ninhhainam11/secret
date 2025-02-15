@@ -14,19 +14,19 @@
                 <div class="flap front"></div>
                 <div class="flap top"></div>
                 <div class="letter">
-                    <p style="text-align: center;">Ngại lắm đừng bấm nhaa</p>
+                    <p style="text-align: center;">Đừng bấm nhaa</p>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="paper image" style="display: none;">
-        <p>Thân gửi Khanh Vu</p>
-        <p>Cậu biết không. Tớ thì không. Không biết từ khi nào đã thích cậu rùi. Từ lúc ra đề excel? Từ lúc bàn bài tập với cậu? Từ lúc thi contest? Tớ không biết nữa. Nhưng mà nó không phải là tình cảm nhất thời. </p>
-        <p>Cậu biết không. Tất nhiên là có rùi. Người gì đâu mà có duyên, thân thiện, cuốn hút, đỉnh cao, xinh đẹp,... Nói chung là số 1</p>
-        <p>Cậu biết không. Tớ muốn ở bên cậu, cậu ốm thì tớ mua thuốc, cậu buồn thì tớ động viên, cậu than thì tớ nghe, cậu thì tớ thích(ơ). Cậu cho phép tớ nha</p>
-        <p>Cậu biết mà. Tớ không nói suông đâu</p>
-        <p style="margin-left:65%;">Nam</p>
+        <p>Thân gửi Khanh Vu.</p>
+        <p>Cậu biết không. Tớ thì không. Không biết từ khi nào đã thích cậu rùi. Từ lúc ra đề excel? Từ lúc bàn bài tập với cậu? Từ lúc thi contest? Tớ không biết nữa. Nhưng mà tớ thích nụ cười của cậu, thích cách cậu nói chuyện, thích mọi điều về cậu.</p>
+        <p>Cậu biết không. Tất nhiên là có rùi. Người gì đâu mà vừa có duyên, thân thiện, cuốn hút, đỉnh cao, xinh đẹp,... Như một bông hoa mai nở rộ dưới nắng xuân ngày Tết vậy.</p>
+        <p>Cậu biết không. Tớ muốn ở bên cậu, cậu ốm thì tớ mua thuốc, cậu buồn thì tớ động viên, cậu than thì tớ nghe, cậu thì tớ thích. Vậy nên cậu cho phép tớ làm người yêu cậu nhé. Cho phép tớ được chăm lo, chở che, làm vơi bớt đi những buồn phiền của cậu nhé.</p>
+        <p>Cậu biết mà. Tớ không nói suông đâu.</p>
+        <p id="kybut" style="margin-left:65%;">Nam</p>
     </div>
     
     <script>
@@ -35,8 +35,8 @@
         const hiddenImage = document.querySelector('.hidden-image');
         
         envelope.addEventListener('click', () => {
-            envelope.classList.toggle('open'); // Opens/Closes the envelope
-            letter.classList.toggle('open');   // Triggers letter opening animation
+            envelope.classList.toggle('open'); 
+            letter.classList.toggle('open');   
             hiddenImage.classList.toggle('show');
             envelope.removeEventListener('click', openEnvelope);
         });
